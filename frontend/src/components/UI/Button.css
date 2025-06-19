@@ -1,0 +1,39 @@
+.btn-loading {
+    position: relative;
+    color: transparent;
+  }
+  
+  .btn-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid currentColor;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  .btn-primary .btn-spinner {
+    border-top-color: white;
+  }
+  
+  .btn-secondary .btn-spinner {
+    border-top-color: white;
+  }
+  
+  .btn-outline .btn-spinner {
+    border-top-color: #3b82f6;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  

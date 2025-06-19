@@ -1,0 +1,56 @@
+.patient-list {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .patient-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    border-left: 4px solid #10b981;
+  }
+  
+  .patient-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-info {
+    flex: 1;
+  }
+  
+  .patient-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .patient-email {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  .patient-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  @media (max-width: 640px) {
+    .patient-card {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+  
+    .patient-actions {
+      justify-content: center;
+    }
+  }
+  
