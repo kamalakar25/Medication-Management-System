@@ -414,10 +414,13 @@ REACT_APP_ENV=production
 2. Set environment variables
 3. Deploy automatically on push
 
+<<<<<<< HEAD
 #### **Netlify**
 1. Build command: `npm run build`
 2. Publish directory: `build`
 3. Set environment variables
+=======
+>>>>>>> 95b7d92b12e72fa21c92144d239259952a29021a
 
 #### **AWS S3 + CloudFront**
 \`\`\`bash
