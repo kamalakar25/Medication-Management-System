@@ -439,7 +439,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [YourGitHub](https://github.com/kamalakar25)
 
 ## 🙏 Acknowledgments
 
@@ -454,7 +454,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 If you have any questions or need help:
 
 - **Create an issue** on GitHub
-- **Email**: your-email@example.com
+- **Email**: kkamalakar512@gmail.com
 - **Documentation**: Check the `/docs` folder for detailed guides
 
 ---
