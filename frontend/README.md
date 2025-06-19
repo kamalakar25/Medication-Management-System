@@ -197,11 +197,6 @@ npm run build
 2. Set environment variables in Vercel dashboard
 3. Deploy automatically on push
 
-### **Netlify**
-1. Connect repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `build`
-4. Configure environment variables
 
 ### **Traditional Hosting**
 1. Build the application: `npm run build`
